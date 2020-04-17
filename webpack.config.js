@@ -59,6 +59,20 @@ module.exports = {
           },
         ],
       },
+      // Found a image loader for potential ec? not super sure if it's right though..
+      {
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+          'file-loader',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true, // webpack@1.x
+              disable: true, // webpack@2.x and newer
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
