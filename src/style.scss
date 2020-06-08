@@ -1,17 +1,327 @@
 body, html {
-    font-family: "Roboto", sans-serif;
-    background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+  font-family: 'Montserrat', sans-serif;
+    background: black;
+    // linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
     height: 100%;
+    margin: 0;
   }
 
-.logo{
-    background-image: url('img/unc.png');
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
+  .aboutPage{
+    background-color: white;
+    height:700px;
+  }
+
+  .macroPage{
+    background-color: white;
+    color: black;
+  }
+
+  .microPage{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    .singleBoxCol{
+      display: flex;
+    flex-direction: column;
+    }
+
+    .microTitle{
+      display: flex;
+      justify-content: center;
+      background-color: lavender;
+    }
+    .popAct{
+      background-color: black;
+      color:white;
+      padding:30px;
+    }
+    .healthNSocial{
+      display: flex;
+      flex-direction: column;
+      padding:30px;
+    }
+
+    .categoryBoxesCol{
+      display: flex;
+      flex-direction: column;
+      .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .stack{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+    }
+    .categoryBoxes{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-left: 40px;
+      margin-bottom: 20px;
+      .singleBoxes{
+        display:flex;
+        flex-direction: column;
+        margin: 3px;
+        .subPics{
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          .dietGraphs{
+          display: flex;
+          flex-direction: column;
+          margin:0px;
+          }
+        }
+      }
+    }
+     
+    
+  }
+  
+  .references{
+    background-color: white;
+    height:700px;
+  }
+
+.navList{
+  // background-color: white;
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+
+  .home{
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color:White;
+    font-size: 25px;
+    text-decoration: none!important;
+
+    // .hover{
+    //   color: hotpink;
+    // }
+  }
+  .navButtonBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+    height: 50px;
+ 
+  }
+  .navButton{
+    color:White;
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .active {
+    color: slateblue;
+  }
+
+
+
 }
 
-.active {
-  color: pink;
+.welcomeSection{
+  background-color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .welcomeSep{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // background-color: pink;
+    align-items: center;
+  }
+.welcomeBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: pink;
+  padding:30px;
+
+  
 }
+
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.siteDesc{
+  color: black;
+  margin:0;
+  padding:0;
+  font-size: 17px;
+
+}
+.caption{
+  color: black;
+  margin-top:15px;
+  padding:0;
+  font-size: 10px;
+}
+}
+
+.introSection{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+ 
+  .introText{
+    width: 50%;
+  }
+  h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin:30px;
+  }
+ .introBox{
+   margin-left:30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+}
+
+.micro{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left:40px;
+  padding-top:30px;
+
+  .microHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+
+  .bruh{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  h1{
+    margin:0;
+  }
+  p{
+    margin-bottom:10px;
+    margin-top: 0;
+  }
+
+  .qs{
+    // background-color: lightblue;
+    margin-top:10px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 40px;
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+  }
+  .btn{
+    background-color: white;
+    color: black;
+    padding: 2px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    // border-radius: 5px;
+    // border-width: 5px;
+    // border-color: black;
+    // border:2px solid black;
+    font-size: 20px;
+    margin-left: 10px;
+
+  }
+}
+.macro{
+  background-color: black;
+  height: 500px;
+  color:white;
+  margin-left: 40px;  
+  margin-top: 40px; 
+  display: flex;
+  flex-direction: row;
+  h1{
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
+
+  .macroText{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-right:40px;
+    width:50%;
+  }
+  .macroDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:50%;
+    height: 100%;
+    margin-right:40px;
+
+    .img{
+      margin-right: 20px;
+    }
+  }
+}
+
+.footer{
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .footerCap{
+    font-size: 10px;
+  }
+  h1{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+}
+.squareButton{
+  background-color:black;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.squareButton:hover{
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+

@@ -1,46 +1,17 @@
 
 import React from 'react';
 import {
-  BrowserRouter as Router, Route, Switch, NavLink,
+  BrowserRouter as Router, Route, Switch,
 } from 'react-router-dom';
 import '../style.scss';
-import Counter from './counter';
-import Controls from './controls';
+import Welcome from './mainPage';
+import About from './about';
+// import References from './references';
+import FallBack from './doesntExist';
+import Nav from './navbar';
+import Macro from './macro';
+import Micro from './micro';
 
-const Nav = (props) => {
-  return (
-    <nav>
-      <ul>
-        <li><NavLink to="/ exact">Home</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/test/id1">test id1</NavLink></li>
-        <li><NavLink to="/test/id2">test id2</NavLink></li>
-      </ul>
-    </nav>
-  );
-};
-
-const About = (props) => {
-  return <div> All there is to know about me </div>;
-};
-
-const Welcome = (props) => {
-  return (
-    <div>
-      Welcome
-      <Counter />
-      <Controls />
-    </div>
-  );
-};
-
-const Test = (props) => {
-  return <div> ID: {props.match.params.id} </div>;
-};
-
-const FallBack = (props) => {
-  return <div>URL Not Found</div>;
-};
 
 const App = () => {
   return (
@@ -49,8 +20,11 @@ const App = () => {
         <Nav />
         <Switch>
           <Route exact path="/" component={Welcome} />
+          {/* <Route path="/references" component={References} /> */}
           <Route path="/about" component={About} />
-          <Route exact path="/test/:id" component={Test} />
+          <Route path="/Macro" component={Macro} />
+          <Route path="/Micro" component={Micro} />
+
           <Route component={FallBack} />
         </Switch>
       </div>
