@@ -23,8 +23,9 @@ const Macro = (props) => {
 
               <div className="videoBox">
                 <video controls width="450" height="700" autoPlay loop muted id="introVideo">
-                  <source src="/src/img/nytscroll.MP4" type="video/mp4" />
+                  <source src="https://filebin.net/63kkhhbootwchyac/nytscroll.mp4?t=vj2tx63v" style={{ width: 300 }} type="video/mp4" />
                 </video>
+                <a href="https://filebin.net/63kkhhbootwchyac/nytscroll.mp4?t=vj2tx63v">Source</a>
               </div>
               <div className="stack">
                 <div className="singleBoxes">
@@ -42,7 +43,7 @@ const Macro = (props) => {
 
                 <div className="marginHere">
                   <figure>
-                    <img src="/src/img/timeAtHome.png" style={{ height: '300px' }} alt="Health" />
+                    <img src="https://i.imgur.com/uhsS51A.png" style={{ height: '300px' }} alt="Health" />
                     <figcaption>
                       <a href="https://www.washingtonpost.com/graphics/2020/national/businesses-foot-traffic-coronavirus-reopening-us/?no_nav=true&p9w22b2p=b2p22p9w00098&utm_">
                         Source: Washington Post

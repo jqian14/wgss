@@ -89,7 +89,7 @@ const Micro = (props) => {
 
             <div className="singleBoxes"> Screen Time
               <div className="subPics">
-                <img src="/src/img/iphoneUsage.png" style={{ height: '400px' }} alt="iphone " />
+                <img src="https://i.imgur.com/viDSx4e.png" style={{ height: '400px' }} alt="iphone " />
                 <figure>
                   {/* <img src="/src/img/zoom.png" style={{ height: '400px' }} alt="stimulus package breakdown" /> */}
                   {/* <figcaption> Source:https://www.wrcbtv.com/story/41996193/what-the-tech-how-to-use-the-zoom-app</figcaption> */}

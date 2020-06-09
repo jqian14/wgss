@@ -35,8 +35,9 @@ const Welcome = (props) => {
           </div>
           <div className="videoBox">
             <video controls width="450" height="700" autoPlay loop muted id="introVideo">
-              <source src="/src/img/introVidCrop.MP4" type="video/mp4" />
+              <source src="https://filebin.net/zqex6afsye6n6k3m/introVidCrop.mp4?t=tkhfnhqh" style={{ width: 300 }} type="video/mp4" />
             </video>
+            <a href="https://filebin.net/zqex6afsye6n6k3m/introVidCrop.mp4?t=tkhfnhqh">Source</a>
           </div>
           {/* <div className="introPics">
             <h1>pic 1</h1>
@@ -96,7 +97,7 @@ const Welcome = (props) => {
         <div className="macroText">
           <h1 className="bruh"> Macro-level</h1>
           <p> Macro scale tracking seen through the lens of daily life</p>
-          <button type="button" className="squareButton"><Link to="/micro" className="btn"><text style={{ color: 'white' }}>Explore All</text></Link> </button>
+          <button type="button" className="squareButton"><Link to="/macro" className="btn"><text style={{ color: 'white' }}>Explore All</text></Link> </button>
         </div>
         {/* link=" https://www.washingtonpost.com/business/2020/04/17/your-money-pandemic/?arc404=true" */}
         {/* <video width="320" height="240" autoplay>
@@ -105,7 +106,7 @@ const Welcome = (props) => {
   Your browser does not support the video tag.
 </video> */}
         <div className="macroDisplay">
-          <img src="https://i.imgur.com/uhsS51A.png" style={{ height: '400px' }} alt="Health" />
+          <img src="https://i.imgur.com/uhsS51A.png" style={{ height: '400px' }} alt="us at home" />
         </div>
 
       </div>
