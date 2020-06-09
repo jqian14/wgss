@@ -13,7 +13,14 @@ const Welcome = (props) => {
             <p className="siteDesc">This site is a time capsule that seeks to record aspects of quantified tracking during daily life in COVID-19</p>
             <p className="caption">Site by Jennifer Qian for WGSS 57 Data and Bodies</p>
           </div>
-          <img src="/src/img/down.png" style={{ width: '20px', height: '20px' }} alt="scroll down" />
+          {/* src={require(’./images/abstract-access.jpg’)} */}
+          <img src={
+            // eslint-disable-next-line global-require
+            require('./src/img/down.png')
+}
+            style={{ width: '20px', height: '20px' }}
+            alt="scroll down"
+          />
         </div>
       </div>
 
