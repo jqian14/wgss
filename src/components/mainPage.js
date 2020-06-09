@@ -14,13 +14,7 @@ const Welcome = (props) => {
             <p className="caption">Site by Jennifer Qian for WGSS 57 Data and Bodies</p>
           </div>
           {/* src={require(’./images/abstract-access.jpg’)} */}
-          <img src={
-            // eslint-disable-next-line global-require
-            require('./src/img/down.png')
-}
-            style={{ width: '20px', height: '20px' }}
-            alt="scroll down"
-          />
+          <img src="https://i.imgur.com/gryOQhR.png" style={{ width: '20px', height: '20px' }} alt="scroll down" />
         </div>
       </div>
 
@@ -62,7 +56,7 @@ const Welcome = (props) => {
         <div className="qs">
 
           <div className="Health">
-            <img src="/src/img/health.png" style={{ width: '400px', height: '400px' }} alt="Health" />
+            <img src="https://i.imgur.com/I1dzZxn.jpg" style={{ width: '400px', height: '400px' }} alt="Health" />
             <p> sleep | exercise | diet</p>
             {/* <div className="sleep"> Sleep</div>
             <div className="exercise"> Exercise</div>
@@ -71,7 +65,7 @@ const Welcome = (props) => {
           </div>
 
           <div className="popAct">
-            <img src="/src/img/future.png" style={{ width: '400px', height: '400px' }} alt="future" />
+            <img src="https://i.imgur.com/hBoh3lO.jpg" style={{ width: '400px', height: '400px' }} alt="future" />
             <p>future | finances | productivity</p>
             {/* <div className="finances"> Finances</div> */}
             {/* <button type="button" link=" https://www.washingtonpost.com/business/2020/04/17/your-money-pandemic/?arc404=true" className="squareButton">Money and Finance </button> */}
@@ -82,7 +76,7 @@ const Welcome = (props) => {
           </div>
 
           <div className="screenNsocial">
-            <img src="/src/img/socialSqu.png" style={{ width: '400px', height: '400px' }} alt="Social" />
+            <img src="https://i.imgur.com/Cm0zM0Q.jpg" style={{ width: '400px', height: '400px' }} alt="Social" />
             <p>social | screentime</p>
             {/* <div className="social"> Social</div> */}
             {/* <div className="screenTime"> Screentime</div> */}
@@ -111,7 +105,7 @@ const Welcome = (props) => {
   Your browser does not support the video tag.
 </video> */}
         <div className="macroDisplay">
-          <img src="/src/img/timeAtHome.png" style={{ height: '400px' }} alt="Health" />
+          <img src="https://i.imgur.com/uhsS51A.png" style={{ height: '400px' }} alt="Health" />
         </div>
 
       </div>

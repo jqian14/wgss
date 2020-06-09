@@ -11,7 +11,7 @@ const Macro = (props) => {
         <div className="healthNSocial">
           <h2>CASE ENUMERATION</h2>
           <div className="singleBoxCol"> <h3>Global Cases</h3>
-            <img src="/src/img/nytworld.png"
+            <img src="https://i.imgur.com/JJGRc2Z.png"
               style={{
                 marginLeft: 40, marginBottom: 40, height: '100%', width: '90%',
               }}
@@ -29,7 +29,7 @@ const Macro = (props) => {
               <div className="stack">
                 <div className="singleBoxes">
                   <figure>
-                    <img src="/src/img/nytus.png" style={{ height: '300px' }} alt="workout" />
+                    <img src="https://i.imgur.com/BD2oPmD.png" style={{ height: '300px' }} alt="workout" />
                     <figcaption>
                       <a href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html">
                         Source: New York Times
@@ -65,7 +65,7 @@ const Macro = (props) => {
           <div className="singleBoxes"> <h3>Higher Education</h3>
             <div className="categoryBoxes">
               <figure>
-                <img src="/src/img/remoteTerm.png" style={{ height: '500px' }} alt="Dartmouth Remote Term" />
+                <img src="https://i.imgur.com/BcQY2em.jpg" style={{ height: '500px' }} alt="Dartmouth Remote Term" />
                 <figcaption>
                   <a href="https://news.dartmouth.edu/news/2020/03/provost-all-spring-term-classes-be-conducted-remotely">
                     Source: Dartmouth College Website
@@ -73,7 +73,7 @@ const Macro = (props) => {
                 </figcaption>
               </figure>
               <figure>
-                <img src="/src/img/grad.png" style={{ height: '490px' }} alt="Dartmouth Remote Term" />
+                <img src="https://i.imgur.com/69Kilvu.jpg" style={{ height: '490px' }} alt="Dartmouth Remote Term" />
                 <figcaption>
                   <a href="https://www.instagram.com/dartmouthcollege/?hl=en">
                     Source: Dartmouth College Instagram
@@ -89,19 +89,19 @@ const Macro = (props) => {
             <div className="categoryBoxes">
               <div className="singleBoxes"> Impact on Industries
                 <figure>
-                  <img src="/src/img/affected.png" style={{ height: '300px' }} alt="Bloombery recovery projections" />
+                  <img src="https://i.imgur.com/IfQmu6W.png" style={{ height: '300px' }} alt="industry impact" />
                   <figcaption><a href="https://www.visualcapitalist.com/covid-19-impact-on-app-popularity/"> Source: Visual Capitalist</a></figcaption>
                 </figure>
               </div>
               <div className="singleBoxes"> Impact on Stocks
                 <figure>
-                  <img src="/src/img/stocks.png" style={{ height: '300px' }} alt="Bloomberg recovery projections" />
+                  <img src="https://i.imgur.com/2zKxDQD.png" style={{ height: '300px' }} alt="stock impact" />
                   <figcaption><a href="https://www.visualcapitalist.com/covid-19-impact-on-app-popularity/"> Source: Bloomberg</a></figcaption>
                 </figure>
               </div>
               <div className="singleBoxes"> Projected Recovery Example (NYC)
                 <figure>
-                  <img src="/src/img/recovery.png" style={{ height: '300px' }} alt="Bloombery recovery projections" />
+                  <img src="https://i.imgur.com/w2E5qTp.png" style={{ height: '300px' }} alt="Bloombery recovery projections" />
                   <figcaption>
                     <a href="https://www.bloomberg.com/news/articles/2020-05-31/nyc-s-finance-jobs-won-t-recover-for-six-years-analysis-shows?sref=KkPzpZvz">
                       Source: Bloomberg
@@ -124,7 +124,7 @@ const Macro = (props) => {
             <div className="singleBoxes"> <h3>CO2 Emissions</h3>
               <div className="subPics">
                 <figure>
-                  <img src="/src/img/co2.png" style={{ height: '400px' }} alt="co2 emissions" />
+                  <img src="https://i.imgur.com/MfWnMnC.png" style={{ height: '400px' }} alt="co2 emissions" />
                   <figcaption><a href="https://research.noaa.gov/article/ArtMID/587/ArticleID/2636/Rise-of-carbon-dioxide-unabated?utm_source=morning_brew">Source: NOAA</a></figcaption>
                 </figure>
               </div>
@@ -132,7 +132,7 @@ const Macro = (props) => {
 
             <div className="singleBoxes"> <h3>Air Quality</h3>
               <figure>
-                <img src="/src/img/airqual.png" style={{ height: '400px' }} alt="air quality" />
+                <img src="https://i.imgur.com/ebzHgaY.jpg" style={{ height: '400px' }} alt="air quality" />
                 <figcaption>
                   <a href="https://theconversation.com/covid-19-shutdowns-are-clearing-the-air-but-pollution-will-return-as-economies-reopen-134610">Source: NASA Giovanni</a>
                 </figcaption>
